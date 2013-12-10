@@ -1,0 +1,22 @@
+{
+  "name": "neosavvy",
+  "version": "0.0.0",
+  "authors": [
+    "Frank Gutierrez <dearfrankg@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-mocks": "~1.2.4",
+    "angular": "~1.2.4",
+    "angular-resource": "~1.2.4",
+    "jquery": "~2.0.3",
+    "neosavvy-javascript-angular-core": "~0.1.1"
+  }
+}
