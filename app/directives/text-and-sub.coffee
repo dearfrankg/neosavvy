@@ -7,6 +7,6 @@ Dessert.Directives.directive 'nsTextAndSub', ->
       text: '@'
       sub: '@'
     }
-    link: (scope, elem, attrs) -> 
-      
+    link: (scope, elem, attrs) ->
+
   }

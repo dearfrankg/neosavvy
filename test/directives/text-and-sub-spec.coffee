@@ -21,7 +21,7 @@ describe 'nsTextAndSub', ->
     $body.append(el)
     $rootScope.$digest()
 
-    # grab to confirm compilation 
+    # grab to confirm compilation
     $el = $('.text-and-sub')
 
 

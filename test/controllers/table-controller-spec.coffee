@@ -28,7 +28,7 @@ describe 'TableController', ->
 
 
   describe 'Getters', ->
-    
+
     describe 'getSilverWare', ->
 
       it 'should return a fork for 0', ->

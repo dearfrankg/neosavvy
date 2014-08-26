@@ -34,6 +34,6 @@ describe 'DessertManager', ->
 
     it 'should throw an error if there are no pies', ->
       values.pies = null
-      expect( 
+      expect(
         -> factory.pieFlavors()
       ).toThrow()

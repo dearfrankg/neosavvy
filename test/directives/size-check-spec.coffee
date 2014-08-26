@@ -1,4 +1,4 @@
-describe 'sizeCheck', ->  
+describe 'sizeCheck', ->
   $rootScope = undefined
   $scope = undefined
   el = undefined
@@ -13,7 +13,7 @@ describe 'sizeCheck', ->
       $scope = $rootScope.$new()
       el = $compile(angular.element(simpleHtml))($scope)
 
-    $body.append(el) 
+    $body.append(el)
     $rootScope.$digest()
 
   afterEach ->

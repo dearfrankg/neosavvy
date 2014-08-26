@@ -3,10 +3,10 @@ Dessert.Directives.directive 'nsStateful', (DessertLog) ->
   return {
     restrict: 'A'
     scope: true
-    link: (scope, elem, attrs) -> 
-      
+    link: (scope, elem, attrs) ->
+
       if not attrs.nsStateful
-        throw 'You must provide a class name for this directive'
+        throw new Error 'You must provide a class name for this directive'
 
       elem.bind 'click', (e) ->
         scope.$apply ->

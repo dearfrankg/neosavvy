@@ -17,9 +17,9 @@ angular.module('pie', []).controller 'PieCtrl', ($scope, DessertManager) ->
 
   $scope.$watch('nutritionalValue', (newVal, oldVal) ->
     props = compareAndWarn(newVal, oldVal)
-    if props && props.length 
+    if props && props.length
       $scope.warning = props.join(', ') + ' have gone up!'
-    else 
+    else
       $scope.warning = null
   , true)
 

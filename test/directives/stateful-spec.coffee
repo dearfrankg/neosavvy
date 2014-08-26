@@ -9,7 +9,7 @@ describe 'nsStateful', ->
   simpleHtml = '<button ns-stateful="red" ></button>'
 
 
-  beforeEach ->    
+  beforeEach ->
     module.apply module, Dessert.Dependencies
 
     inject ($injector) ->

@@ -11,9 +11,9 @@ Dessert.Directives.directive 'sizeCheck', ->
           if parseInt(val) > parseInt(attrs.sizeCheck)
             ngModelController.$setValidity 'tooBig', false
             return undefined
-          else 
+          else
             ngModelController.$setValidity 'tooBig', true
             return val
-        else 
+        else
           return val
   }

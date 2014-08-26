@@ -27,7 +27,7 @@ describe 'Pie Ctrl', ->
         expect($scope.slices).toEqual 7
 
       it 'should do nothing when slices is 0', ->
-        $scope.slices = 0 
+        $scope.slices = 0
         $scope.eatSlice()
         expect($scope.slices).toEqual 0
 
@@ -43,7 +43,7 @@ describe 'Pie Ctrl', ->
       it 'should toggle to cake from pie', ->
         $scope.toggleMode()
         expect(modeSpy).toHaveBeenCalledWith('cake')
-        
+
       it 'should toggle from pie to cake', ->
         modeSpy = modeSpy.andReturn('cake')
         $scope.toggleMode()
@@ -71,7 +71,7 @@ describe 'Pie Ctrl', ->
 
     it 'should initialize $scope.nutritionalValue', ->
       expect($scope.nutritionalValue).toEqual {calories: 500, fat: 200, carbs: 100}
- 
+
     it 'should initialize $scope.warning to null', ->
       expect($scope.warning).toBeNull()
 
